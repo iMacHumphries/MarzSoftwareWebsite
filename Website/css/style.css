@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.noUnderline{
+    text-decoration: none;
+}
+
+.holder{
+    padding-left: 100px;
+    float: left;
+    height:50px;
+    width: 200px;
+}
+
+.rightSide{
+    width:100px;
+    float:right;
+}
+.leftSide{
+    width:100px;
+    float:left;
+}
+
+.freshAirIcon{
+    width:50px;
+    height: 50px;
+    z-index:10;
+    border-radius: 10px;
+}
+#menubar,
+#menubar ul{
+    list-style: none;
+	 height: 50px;
+	 width: 100%;
+     background-color:#fff;
+     color: #505050;
+     opacity:.90;
+}
+
+#menubar img{
+    height: 50px;
+    width:auto;
+    border-radius: 0px;
+}
+
+#menubar>h1{
+    font-size: 250%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#menubar>li{
+    float: left;
+    padding-left: 10px;
+}
+
+#menubar li a{
+	
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    position:relative;
+}
+
+
+#linklist{
+    position: absolute;
+    background-color: #efefef;
+    z-index: 9999;
+    display: none;
+}
+
+#linklist>li>a{
+    color: #121;
+    width: auto;
+}
+
+#menubar li:hover #linklist{
+    display: block;
+}
+
+h1 {
+    font-size: 200%;
+	text-align: center;
+    color: #505050;
+}
+.copyright{
+    bottom:0px;
+}
+div
+{
+  height: 60px;
+  width: 100%;
+  line-height: 50px; 
+  vertical-align: middle;
+  margin: auto;
+  text-align:center;
+}
+
+
+#topTab{
+    content: url("../images/tab4.png");
+    opacity: 0.9;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: -100px;
+    height: 50px;
+    width: 100%;
+}
+
+#top{
+    z-index: 100;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: auto;
+    position: fixed;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.appStore{
+    border-radius: 0px;
+    width:135px;
+    height:40px;
+    padding-left: 130px;
+}
+
+section.container {
+    background: #fff;
+    width: 100px;
+	height: 150px;
+    margin: auto;
+    -moz-border-radius: 15px;
+    border-radius: 16px;
+    padding: 5px;
+    box-shadow: 0px 0px 25px #888;
+}
+section.container:hover{
+    background-color: #E3E3E3;
+	height: 200px;
+    margin-top:-50px;
+}
+section.body {
+    margin-top:10px;
+    text-align: center;
+}
+
+table {
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    height: 400px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.app {
+     height: 200px;
+}
+
+caption{
+    color: white;
+    font-size: 200%;
+    text-decoration: underline;
+    padding-top: -20px;
+}
+
+
+.tab{
+    height: 200px;
+    width: 100%;
+    padding-right: 60%;
+    padding-left: -82px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+    content: url("../images/tab2.png");
+/*    //border-radius: 16px;*/
+/*    //box-shadow: 0px 0px 20px #888;*/
+}
+.appTab{
+    height: 200px;
+    right: 200px;
+    bottom: -160px;
+    width: 100%;
+    padding-left: -82px;
+    z-index: -1;
+    position: relative;
+    content: url("../images/tab2.png");
+}
+
+.mid{
+    position: relative;
+    right: 0;
+    bottom: -30px;
+    height:660px;
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    background: -webkit-linear-gradient(bottom, white , lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, white, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, white , lightgray); /* Standard syntax */
+    
+}
+
+.appMid, .appMidSmall{
+    width: 100%;
+    position: relative;
+    bottom: -144;
+    height:850px;
+    text-align: left;
+    background-color: #fff;
+    background: -webkit-linear-gradient(bottom, white , lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, white, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, white , lightgray); /* Standard syntax */
+    
+}
+
+.appMidSmall {
+    height: 400px;
+    
+}
+
+.appMidLarge{
+    position: relative;
+    bottom: -144;
+    height:1400px;
+    text-align: left;
+    background-color: #fff;
+    background: -webkit-linear-gradient(bottom, white , lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, white, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, white , lightgray); /* Standard syntax */
+}
+
+.appMidMedium{
+    position: relative;
+    bottom: -144;
+    height:1000px;
+    text-align: left;
+    background-color: #fff;
+    background: -webkit-linear-gradient(bottom, white , lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, white, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, white , lightgray); /* Standard syntax */
+}
+
+.appMid,.appMidLarge, .appMidMedium ul{
+    list-style-position: inside;
+    color:black;
+    margin: auto;
+}
+
+
+p.header{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    color:black;
+    text-decoration: bold;
+    font-size: 30px;
+   
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 16px;
+    color: black;
+}
+
+section {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+h2{
+    color:white;
+    font-size: 200%;
+    text-align: center;
+}
+
+.logo{
+    /*content: url("../images/marzLogo2.jpg");*/
+    bottom: -50px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-image: url("../images/background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.bottomBar{
+    width: 100%;
+    height: 330px;
+    padding-top: 150px;
+    position: relative;
+    text-align:left;
+    bottom:-35px;
+}
+.bottomBar a{
+    color: white;
+    font-size:110%;
+}
+.bottomBar a:hover{
+     font-size:120%;
+}
+.bottomBar ul{
+     list-style-position: inside;
+     color:white;
+     width: 300px;
+     margin: auto;
+}
+.bottomBar li{
+    text-align:left;
+    margin:auto;
+}
+.bottomBarMain{
+    width:100%;
+    height: auto;
+}
+.bottomBarLeft{
+    width:50%;
+    float:left;
+
+}.bottomBarRight{
+    width:50%;
+    float:right;
+}
+.bottomBarIcons{
+    position: relative;
+    text-align: right;
+    bottom:0;
+}
+.iconPhoto{
+    width: 60px;
+    height: 60px;
+}
+.iconPhoto:hover{
+    box-shadow: 0px 0px 20px #888;
+}
+
+/*App Description*/
+.ADMain{
+    width:90%;
+    height: 580px;
+}
+
+.ADLeft{
+    float:left;
+     width: 32%;
+    height:580px;
+}
+
+.ADCenter{
+    float:center;
+     width: 32%;
+    height:580px;
+}
+
+.ADRight{
+    float:right;
+    width: 32%;
+    height:580px;
+}
+
+.ADPhoto{
+    width: 320px;
+    height: 568px;
+}
+/*END App Description*/
+
+label{
+    color: black;
+}
+select{
+    position: relative;
+    width: 250px;
+}
+textarea{
+    width:250px;
+}
+@media (max-width: 600px){
+   
+   *{
+       margin: 0;
+       padding: 0;
+       font-family: arial;
+       font-size: 20px;
+   }
+   p {
+       font-size:20px;
+       
+   }
+   p.header{
+       font-size:35px;
+   }
+    .bottomBarIcons{
+        text-align: center;
+        bottom:0;
+    }
+    .mid{
+        height:800px;
+    }
+    .appMidLarge{
+        height:1700px;
+    }
+    .appMidMedium{
+        height:1200px;
+    }
+    
+}
+@media (max-width: 1000px){
+    .ADMain{
+        height: 284px;
+    }
+    .ADPhoto{
+        width: 160px;
+        height: 284px;
+    }
+    .ADLeft{
+        height: 284px;
+    }
+    
+    .ADCenter{
+        height: 284px;
+    }
+    
+    .ADRight{
+        height: 284px;
+    }
+    .appMid{
+        height:1350px;
+    }
+    .appMidLarge{
+        height:2150px;
+    }
+    .appMidMedium{
+        height:1750px;
+    }
+    .appTab{
+        bottom: 45;
+
+    }
+    .bottomBar{
+        padding-top: 100px;
+    }
+    .bottomBar a{
+        font-size: 20px;
+    }
+}
+
