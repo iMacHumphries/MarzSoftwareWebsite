@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B539E8BE1AB4BF130038E209 /* ContactUs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = ContactUs.php; sourceTree = "<group>"; };
+		B539E8BE1AB4BF130038E209 /* ContactUs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; name = ContactUs.php; path = Website/ContactUs.php; sourceTree = "<group>"; };
 		B591EB771AB1FA4F00BB5413 /* tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab2.png; sourceTree = "<group>"; };
 		B591EB791AB2004800BB5413 /* tab4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab4.png; sourceTree = "<group>"; };
-		B591EB7B1AB246FB00BB5413 /* iPushUpCounter.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = iPushUpCounter.html; sourceTree = "<group>"; };
+		B591EB7B1AB246FB00BB5413 /* iPushUpCounter.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = iPushUpCounter.html; path = Website/iPushUpCounter.html; sourceTree = "<group>"; };
 		B591EB7C1AB24DF500BB5413 /* push2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push2.png; sourceTree = "<group>"; };
 		B591EB7D1AB24DF500BB5413 /* push3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push3.png; sourceTree = "<group>"; };
 		B591EB7E1AB24DF500BB5413 /* push1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push1.png; sourceTree = "<group>"; };
@@ -22,13 +22,13 @@
 		B591EB871AB28D6D00BB5413 /* freshAir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freshAir.png; sourceTree = "<group>"; };
 		B591EB881AB2984200BB5413 /* marzLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marzLogo.png; sourceTree = "<group>"; };
 		B591EB891AB2994D00BB5413 /* marzLogo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marzLogo2.jpg; sourceTree = "<group>"; };
-		B591EB8B1AB2ACAD00BB5413 /* RoadTripGames.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = RoadTripGames.html; sourceTree = "<group>"; };
-		B591EB8C1AB2ACBA00BB5413 /* ICETank.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ICETank.html; sourceTree = "<group>"; };
-		B591EB8D1AB2ACCB00BB5413 /* NYRCDevotionals.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = NYRCDevotionals.html; sourceTree = "<group>"; };
-		B591EB8E1AB2ACDC00BB5413 /* iSitUp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = iSitUp.html; sourceTree = "<group>"; };
-		B591EB8F1AB2ACEA00BB5413 /* contact.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
-		B591EB901AB2ACF300BB5413 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
-		B591EB911AB2AD6500BB5413 /* iPushUpCounterPro.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = iPushUpCounterPro.html; sourceTree = "<group>"; };
+		B591EB8B1AB2ACAD00BB5413 /* RoadTripGames.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = RoadTripGames.html; path = Website/RoadTripGames.html; sourceTree = "<group>"; };
+		B591EB8C1AB2ACBA00BB5413 /* ICETank.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = ICETank.html; path = Website/ICETank.html; sourceTree = "<group>"; };
+		B591EB8D1AB2ACCB00BB5413 /* NYRCDevotionals.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = NYRCDevotionals.html; path = Website/NYRCDevotionals.html; sourceTree = "<group>"; };
+		B591EB8E1AB2ACDC00BB5413 /* iSitUp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = iSitUp.html; path = Website/iSitUp.html; sourceTree = "<group>"; };
+		B591EB8F1AB2ACEA00BB5413 /* contact.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = contact.html; path = Website/contact.html; sourceTree = "<group>"; };
+		B591EB901AB2ACF300BB5413 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = about.html; path = Website/about.html; sourceTree = "<group>"; };
+		B591EB911AB2AD6500BB5413 /* iPushUpCounterPro.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = iPushUpCounterPro.html; path = Website/iPushUpCounterPro.html; sourceTree = "<group>"; };
 		B591EB941AB3216F00BB5413 /* badge_appstore-lrg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge_appstore-lrg.png"; sourceTree = "<group>"; };
 		B591EB961AB325FD00BB5413 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		B591EB971AB33F2200BB5413 /* roadDesc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadDesc2.png; sourceTree = "<group>"; };
@@ -52,18 +52,11 @@
 		B5B508B41AB1237A00080865 /* pushupPro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pushupPro.jpg; sourceTree = "<group>"; };
 		B5B508B51AB1237A00080865 /* roadTrip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roadTrip.jpg; sourceTree = "<group>"; };
 		B5B508B61AB1237A00080865 /* situp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = situp.jpg; sourceTree = "<group>"; };
-		B5B508B71AB1237A00080865 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B5B508B71AB1237A00080865 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = Website/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		B5B508A61AB1237100080865 = {
-			isa = PBXGroup;
-			children = (
-				B5B508AD1AB1237A00080865 /* Website */,
-			);
-			sourceTree = "<group>";
-		};
-		B5B508AD1AB1237A00080865 /* Website */ = {
 			isa = PBXGroup;
 			children = (
 				B5B508B01AB1237A00080865 /* images */,
@@ -79,7 +72,6 @@
 				B591EB8F1AB2ACEA00BB5413 /* contact.html */,
 				B539E8BE1AB4BF130038E209 /* ContactUs.php */,
 			);
-			path = Website;
 			sourceTree = "<group>";
 		};
 		B5B508AE1AB1237A00080865 /* css */ = {
@@ -87,7 +79,8 @@
 			children = (
 				B5B508AF1AB1237A00080865 /* style.css */,
 			);
-			path = css;
+			name = css;
+			path = Website/css;
 			sourceTree = "<group>";
 		};
 		B5B508B01AB1237A00080865 /* images */ = {
@@ -129,7 +122,8 @@
 				B591EBA71AB34CF700BB5413 /* sphero.jpg */,
 				B591EB961AB325FD00BB5413 /* icon.png */,
 			);
-			path = images;
+			name = images;
+			path = Website/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
